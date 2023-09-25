@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(74, 175, 175);
+  display: grid;
+  grid-template-columns: 150px auto 200px;
+  grid-template-rows: 150px auto 200px;
+}
+
+header {
+  background-color: #45a049;
+  grid-column: 1/spam 3;
+  grid-row: 1;
+}
+
+h1, h2, h3 {
+  color: beige;
+  text-align: center;
+}
+
+footer {
+  grid-column: 1/spam 3;
+  grid-row: 3;
+}
+
+main {
+  grid-column: 1/spam 3;
+  grid-row: 2;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+.fcc-btn {
+  display: grid;
+  background-color: #199719;
+  color: white;
+  padding: 15px 15px;
+  text-decoration: none;
+  justify-content: center;
+  grid-column: 2/spam 3;
+  grid-row: 2;
+}
+
+.fcc-btn:hover {
+  background-color: #223094;
+}
+
+.encuesta {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=estilo.css.map */
